@@ -9,8 +9,13 @@ export function Hero() {
                 </a>
 
                 <button className='w-25 outline-0 cursor-pointer hover:bg-[#fbf5e7] rounded-lg p-2'>
-                <img src="open-folder.png" alt="image" />
-                <p className='font-medium'>My Projects</p>
+                    <img src="open-folder.png" alt="image" />
+                    <p className='font-medium'>My Projects</p>
+                </button>
+
+                <button className='w-25 outline-0 cursor-pointer hover:bg-[#fbf5e7] rounded-lg p-2'>
+                    <img src="globe-earth.png" alt="image" />
+                    <p className='font-medium'>Explorer</p>
                 </button>
             </div>
 
