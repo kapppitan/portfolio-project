@@ -1,6 +1,7 @@
 import { Fragment } from 'react'
 
 import './App.css'
+
 import { Hero } from './components/Hero'
 import { AboutMe } from './components/AboutMe'
 

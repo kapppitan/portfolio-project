@@ -1,7 +1,15 @@
 @import "tailwindcss";
 
+html {
+  cursor: url('assets/cursor.png'), default;
+}
+
 body {
   background-color: #edc3ab;
   font-family: 'Antipasto';
   color: #323230;
+}
+
+a, button {
+  cursor: url('assets/cursor.png'), pointer;
 }
