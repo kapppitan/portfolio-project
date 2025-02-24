@@ -6,6 +6,11 @@ html {
 
 body {
   background-color: #edc3ab;
+  background-image: url('assets/grid.png'), linear-gradient(rgba(237, 195, 171, 0.5), rgba(237, 195, 171, 0.5));
+  background-blend-mode: overlay;
+  background-repeat: repeat;
+  background-position: center center;
+  background-size: auto;
   font-family: 'Antipasto';
   color: #323230;
 }
