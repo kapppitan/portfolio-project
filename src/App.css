@@ -1,7 +1,13 @@
 @font-face {
     font-family: 'Antipasto';
-    src: url('/Antipasto.ttf') format('truetype');
+    src: url('/Antipasto.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
-  
+
+@font-face {
+    font-family: 'Antipasto';
+    src: url('/Antipasto_Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}

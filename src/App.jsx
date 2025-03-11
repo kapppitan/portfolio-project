@@ -10,7 +10,7 @@ import { Footer } from './components/Footer'
 function App() {
   return (
     <Fragment>
-      <div className='flex flex-col antialiased'>
+      <div className='flex flex-col antialiased overflow-hidden'>
         <Hero />
         <AboutMe />
         <MyProjects />
