@@ -30,14 +30,14 @@ export function Hero() {
                     <hr className='border-b-4' />
 
                     <div className='flex flex-col lg:flex-row p-4 lg:p-8 gap-4 lg:gap-8 items-center'>
-                        <img src="capybara.jpg" alt="image" className="h-25 w-25 lg:h-70 lg:w-70 bg-[#fbf5e7] rounded-2xl border-4 border-[#30322d]" />
+                        <img src="capybara_hero.jpg" alt="image" className="h-25 w-25 lg:h-70 lg:w-70 bg-[#fbf5e7] rounded-2xl border-4 border-[#30322d]" />
 
                         <div className="w-full">
                             <div className="flex items-center mb-2 lg:mb-8">
                                 <p className="text-2xl lg:text-5xl text-center w-full font-bold">Hi, I'm <span className="bold">Raphy!</span></p>
                             </div>
 
-                            <p className="text-sm lg:text-3xl text-justify">An aspiring programmer that focuses on full-stack development. Valuing both art and logic to give life into projects.</p>
+                            <p className="text-sm lg:text-3xl text-justify">An aspiring game developer. I strive to merge feature and functions together to breathe life into the project I tackle!</p>
                         </div>
                     </div>
                 </div>
