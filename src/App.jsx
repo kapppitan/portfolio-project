@@ -8,15 +8,16 @@ import { MyProjects } from './components/MyProjects'
 import { Footer } from './components/Footer'
 
 function App() {
-  return (
-    <Fragment>
-      <div className='flex flex-col antialiased overflow-hidden'>
-        <Hero />
-        <AboutMe />
-        <MyProjects />
-      </div>
-    </Fragment>
-  )
+  	return (
+		<Fragment>
+			<div className='flex flex-col antialiased overflow-hidden'>
+				<Hero />
+				<AboutMe />
+				<MyProjects />
+				<Footer />
+			</div>
+		</Fragment>
+  	)
 }
 
 export default App

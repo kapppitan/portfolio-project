@@ -12,7 +12,7 @@ export function MyProjects() {
                 <div className='w-70 lg:w-6xl h-content bg-[#fbf5e7] rounded-2xl border-4 border-[#30322d] overflow-hidden shadow-lg'>
                     <div className='p-2.5 bg-[#c3e7e5] flex justify-between items-center'>
                         <p className='flex-grow text-center text-md lg:text-3xl'>Projects Explorer</p>
-                        <a className='w-8 rounded-[100%] bg-red-400 flex justify-center items-center border-4' href="#hero">‎</a>
+                        <a className='w-8 rounded-[100%] bg-red-400 hover:bg-red-500 flex justify-center items-center border-4' href="#hero">‎</a>
                     </div>
 
                     <hr className='border-b-4' />
