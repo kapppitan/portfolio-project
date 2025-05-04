@@ -24,7 +24,7 @@ export function Hero() {
           href="#explorer"
         >
           <img src="globe-earth.png" alt="image" />
-          <p className="font-medium">Explorer</p>
+          <p className="font-medium">Certificates</p>
         </a>
       </div>
 

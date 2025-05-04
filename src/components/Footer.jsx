@@ -13,7 +13,7 @@ export function Footer() {
             <div className="bg-[#c3e7e5] h-full w-full border-t-4 border-[#30322d] flex p-1 lg:px-4 items-center gap-1">
                 <a className="border-[#30322d] bg-[#fbf5e7] hover:bg-white w-30 lg:w-40 border-2 lg:border-4 rounded-xl text-start text-md lg:text-md p-2 lg:py-1 flex items-center" href="#about-me">About Me</a>
                 <a className="border-[#30322d] bg-[#fbf5e7] hover:bg-white w-30 lg:w-40 border-2 lg:border-4 rounded-xl text-start text-md lg:text-md p-2 lg:py-1 flex items-center" href="#projects">Projects</a>
-                <a className="border-[#30322d] bg-[#fbf5e7] hover:bg-white w-30 lg:w-40 border-2 lg:border-4 rounded-xl text-start text-md lg:text-md p-2 lg:py-1 flex items-center" href="#explorer">Explorer</a>
+                <a className="border-[#30322d] bg-[#fbf5e7] hover:bg-white w-30 lg:w-40 border-2 lg:border-4 rounded-xl text-start text-md lg:text-md p-2 lg:py-1 flex items-center" href="#explorer">Certificates</a>
                 
                 <div className="ml-auto flex gap-2 lg:gap-5 items-center">
                     <img className="h-5 lg:h-5" src="wifi.png" alt="wifi" />
