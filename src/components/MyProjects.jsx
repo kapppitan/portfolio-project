@@ -7,11 +7,11 @@ export function MyProjects() {
     }, [])
 
     return (
-        <div className='flex h-content items-center justify-center' id="projects">
+        <div className='flex h-screen items-center justify-center' id="projects">
             <div className='flex flex-col justify-center items-center gap-25 py-40' data-aos='zoom-in-down'>
                 <div className='w-70 lg:w-6xl h-content bg-[#fbf5e7] rounded-2xl border-4 border-[#30322d] overflow-hidden shadow-lg'>
                     <div className='p-2.5 bg-[#c3e7e5] flex justify-between items-center'>
-                        <p className='flex-grow text-center text-md lg:text-3xl'>Projects Explorer</p>
+                        <p className='flex-grow text-center text-md lg:text-3xl'>Projects</p>
                         <a className='w-8 rounded-[100%] bg-red-400 hover:bg-red-500 flex justify-center items-center border-4' href="#hero">‎</a>
                     </div>
 
