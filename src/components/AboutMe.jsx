@@ -40,19 +40,19 @@ export function AboutMe() {
 				<div className="w-full h-content lg:h-full border-4 border-t-0 rounded-b-2xl bg-[#fbf5e7] p-3 flex flex-col lg:flex-row gap-4">
 					<div className="flex lg:flex-col w-full lg:w-75 gap-2">
 						<button
-						className="border-4 border-[#30322d] rounded-2xl p-3 text-2xl hover:bg-white lg:text-start w-full"
+						className="border-4 border-[#30322d] rounded-2xl p-3 text-sm hover:bg-white lg:text-start w-full"
 						onClick={() => setTab(1)}
 						>
 						Synopsis
 						</button>
 						<button
-						className="border-4 border-[#30322d] rounded-2xl p-3 text-2xl hover:bg-white lg:text-start w-full"
+						className="border-4 border-[#30322d] rounded-2xl p-3 text-sm hover:bg-white lg:text-start w-full"
 						onClick={() => setTab(2)}
 						>
-						My Skills
+						Skills
 						</button>
 						<button
-						className="border-4 border-[#30322d] rounded-2xl p-3 text-2xl hover:bg-white lg:text-start w-full"
+						className="border-4 border-[#30322d] rounded-2xl p-3 text-sm hover:bg-white lg:text-start w-full"
 						onClick={() => setTab(3)}
 						>
 						Experience
@@ -69,8 +69,8 @@ export function AboutMe() {
 								id="about-me-content"
 							>
 								<div className="flex flex-col">
-								<h1 className="text-lg lg:text-2xl font-bold">My name is</h1>
-								<h1 className="text-2xl lg:text-5xl font-bold">
+								<h1 className="text-sm lg:text-2xl font-bold">My name is</h1>
+								<h1 className="text-lg text-center lg:text-start lg:text-5xl font-bold">
 									Raphydhar-Neezamme J. Ibrahim
 								</h1>
 								</div>
