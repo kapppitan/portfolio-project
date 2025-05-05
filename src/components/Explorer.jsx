@@ -3,7 +3,7 @@ import { Routes, Route, NavLink } from "react-router-dom";
 export function Explorer() {
     return (
         <div className='flex h-content w-full items-center justify-center' id="explorer">
-            <div className='flex flex-col w-full justify-center items-center gap-25 p-10 lg:p-20'>
+            <div className='flex flex-col w-full justify-center items-center gap-25 p-10 lg:p-20' data-aos='zoom-in-down'>
                 <div className='w-full lg:w-full h-content bg-[#fbf5e7] rounded-2xl border-4 border-[#30322d] overflow-hidden shadow-lg'>
                     <div className='p-2.5 bg-purple-300 flex justify-between items-center'>
                         <p className='flex-grow text-center text-2xl lg:text-3xl'>Certificates</p>
@@ -46,7 +46,7 @@ export function Explorer() {
                             <h1 className="text-start flex text-xl px-2"><span className="font-bold me-2">#kappp</span>data structures</h1>
                         </div>
 
-                        <a href='https://drive.google.com/drive/folders/1AWR2sWiQyk0HP5gHbLonNpz6hY__LbAD?usp=sharing' className="text-4xl border-4 rounded-lg p-5 h-full w-full items-center justify-center lg:p-5 flex flex-col gap-2 hover:bg-purple-50 bg-purple-100">
+                        <a href='https://drive.google.com/drive/folders/1AWR2sWiQyk0HP5gHbLonNpz6hY__LbAD?usp=sharing' className="text-2xl border-4 rounded-lg p-5 h-full w-full items-center justify-center lg:p-5 flex flex-col gap-2 hover:bg-purple-50 bg-purple-100">
                             Browse More...
                         </a>
                     </div>
