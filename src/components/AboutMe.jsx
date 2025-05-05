@@ -161,8 +161,8 @@ export function AboutMe() {
 							<div className="flex flex-col px-5 pb-5 lg:p-5 gap-5">
 								{/* <h1 className="text-5xl text-center lg:text-start">Experience</h1> */}
 
-								<div className="flex flex-col lg:flex-row gap-5">
-									<img className="border-4 rounded-2xl h-100" src="kas.jpg" alt="placeholder_image" />
+								<div className="flex flex-col lg:flex-row gap-5 items-center">
+									<img className="border-4 rounded-2xl h-50" src="kas.jpg" alt="placeholder_image" />
 
 									<div className="flex flex-col gap-5">
 										<h1 className="text-5xl text-center lg:text-start lg:text-6xl font-bold">Kalpana Articode Solution</h1>
