@@ -18,9 +18,9 @@ export function AboutMe() {
 	};
 
 	return (
-		<div className="flex h-screen items-center justify-center" id="about-me">
+		<div className="flex h-content items-center justify-center" id="about-me">
 			<div
-				className="flex flex-col w-full justify-center items-center p-10 lg:py-20 lg:px-20"
+				className="flex flex-col w-full justify-center items-center p-10 lg:p-20"
 				data-aos="zoom-in-down"
 			>
 				<div className="w-full lg:w-full bg-[#fbf5e7] rounded-t-2xl border-4 border-[#30322d] overflow-hidden shadow-lg">
@@ -40,16 +40,22 @@ export function AboutMe() {
 				<div className="w-full h-content lg:h-full border-4 border-t-0 rounded-b-2xl bg-[#fbf5e7] p-3 flex flex-col lg:flex-row gap-4">
 					<div className="flex lg:flex-col w-full lg:w-75 gap-2">
 						<button
-						className="border-4 border-[#30322d] rounded-2xl p-3 hover:bg-white lg:text-start w-full"
+						className="border-4 border-[#30322d] rounded-2xl p-3 text-2xl hover:bg-white lg:text-start w-full"
 						onClick={() => setTab(1)}
 						>
-						About Me
+						Synopsis
 						</button>
 						<button
-						className="border-4 border-[#30322d] rounded-2xl p-3 hover:bg-white lg:text-start w-full"
+						className="border-4 border-[#30322d] rounded-2xl p-3 text-2xl hover:bg-white lg:text-start w-full"
 						onClick={() => setTab(2)}
 						>
 						My Skills
+						</button>
+						<button
+						className="border-4 border-[#30322d] rounded-2xl p-3 text-2xl hover:bg-white lg:text-start w-full"
+						onClick={() => setTab(3)}
+						>
+						Experience
 						</button>
 					</div>
 
@@ -74,10 +80,10 @@ export function AboutMe() {
 								<div className="flex flex-col lg:flex-row gap-10 items-center lg:items-start">
 								<img
 									className="rounded-2xl border-4 h-50 w-50 lg:w-100 lg:h-100"
-									src="capybara_aboutme.jpg"
+									src="image.jpg"
 									alt="aboutme"
 								/>
-								<p className="text-lg lg:text-4xl text-justify">
+								<p className="text-lg lg:text-4xl text-justify mb-5">
 									I began programming during my senior high school year.
 									Discovering that programming can be a form of art, hence I
 									began to learn game development which branched my learning
@@ -149,6 +155,21 @@ export function AboutMe() {
 							</div>
 							</div>
 						</div>
+						)}
+
+						{tab === 3 && (
+							<div className="flex flex-col px-5 pb-5 lg:p-5 gap-5">
+								{/* <h1 className="text-5xl text-center lg:text-start">Experience</h1> */}
+
+								<div className="flex flex-col lg:flex-row gap-5">
+									<img className="border-4 rounded-2xl h-100" src="capybara_hero.jpg" alt="placeholder_image" />
+
+									<div className="flex flex-col gap-5">
+										<h1 className="text-5xl text-center lg:text-start lg:text-6xl font-bold">Kalpana Articode</h1>
+										<p className="text-justify text-2xl lg:text-3xl">Kalpana Articode's vision was to deliver quality in their IT solutions. We were tasked with programming the complaints desk of Western Mindanao State University. I was tasked with the backend of the system assisted by my groupmates in both documentation and frontend design. It was a challenging system since it was bigger than we anticipated, but after multiple trial and error we delivered something sufficient.</p>
+									</div>
+								</div>
+							</div>
 						)}
 					</div>
 				</div>

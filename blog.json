@@ -1,0 +1,11 @@
+{
+    "blog1": {
+        "title": "My First Blog",
+        "paragraph1": "This is the content of my first blog.",
+        "paragraph2": "This is the content of my first blog.",
+        "paragraph3": "This is the content of my first blog.",
+        "author": "John Doe",
+        "date": "2023-10-01",
+        "image": ""
+    }
+}
