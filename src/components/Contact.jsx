@@ -13,7 +13,12 @@ export function Contact() {
                     <div className='flex flex-col lg:flex-row p-5 lg:p-15 gap-5 items-start'>
                         <div className="flex flex-col lg:w-full gap-2">
                             <h1 className="text-md text-center lg:text-start lg:text-3xl"><span className="font-bold">Gmail: </span>raphydhar.ibrahim1403@gmail.com</h1>
-                            <h1 className="text-md text-center lg:text-start lg:text-3xl"><span className="font-bold">LinkedIn: </span>https://www.linkedin.com/in/raphydhar-ibrahim/</h1>
+                            <h1 className="text-md text-center lg:text-start lg:text-3xl">
+                              <span className="font-bold">LinkedIn: </span>
+                              <a href="https://www.linkedin.com/in/raphydhar-ibrahim/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">
+                                  https://www.linkedin.com/in/raphydhar-ibrahim/
+                              </a>
+                            </h1>
                         </div>
 
                         <div className="flex flex-col lg:w-full gap-2">
