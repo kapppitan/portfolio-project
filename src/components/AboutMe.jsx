@@ -162,11 +162,11 @@ export function AboutMe() {
 								{/* <h1 className="text-5xl text-center lg:text-start">Experience</h1> */}
 
 								<div className="flex flex-col lg:flex-row gap-5">
-									<img className="border-4 rounded-2xl h-100" src="capybara_hero.jpg" alt="placeholder_image" />
+									<img className="border-4 rounded-2xl h-100" src="kas.jpg" alt="placeholder_image" />
 
 									<div className="flex flex-col gap-5">
-										<h1 className="text-5xl text-center lg:text-start lg:text-6xl font-bold">Kalpana Articode</h1>
-										<p className="text-justify text-2xl lg:text-3xl">Kalpana Articode's vision was to deliver quality in their IT solutions. We were tasked with programming the complaints desk of Western Mindanao State University. I was tasked with the backend of the system assisted by my groupmates in both documentation and frontend design. It was a challenging system since it was bigger than we anticipated, but after multiple trial and error we delivered something sufficient.</p>
+										<h1 className="text-5xl text-center lg:text-start lg:text-6xl font-bold">Kalpana Articode Solution</h1>
+										<p className="text-justify text-2xl lg:text-3xl">Kalpana Articode Solution's vision was to deliver quality in their IT solutions. We were tasked with programming the complaints desk of Western Mindanao State University. I was tasked with the backend of the system assisted by my groupmates in both documentation and frontend design. It was a challenging system since it was bigger than we anticipated, but after multiple trial and error we delivered something sufficient.</p>
 									</div>
 								</div>
 							</div>
